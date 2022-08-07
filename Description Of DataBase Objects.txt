@@ -1,0 +1,69 @@
+
+          ========================>views<=======================
+
+1-ShowAllCourses :>get courses names,instrucors names,track,branch
+2-DetailsAboutDepartment :>show departements data
+
+___________________________________________________________________________________
+___________________________________________________________________________________
+
+            ======================>Functions<====================
+
+1-AvailableCourses :>get all available courses
+2-ShowInstructors :>Show Data Of Instructors
+3-ShowManagers :>show managers data
+
+__________________________________________________________________________________
+__________________________________________________________________________________
+
+
+       ======================>Stored Procedures<==================
+
+1-ShowStudentCourses @student_name :>get all courses for specific user providing student_name
+2-EditPassWord @user_name,@password :>change password for specific user in student table
+3-AddStudentToCourse :>add student to course
+4-RemoveStudentFromCourse :>remove student from course
+5-DoExam :> procedure to check if the user valid for exam
+6-CalculateQuestionResult :>to calc student degree for each question
+7-CalculateFinalResult :>to calculate the final result
+8-EditInstructor :>edit the instructor table
+9-DeleteInstructor :>delete instructor
+10-EditCourse :>to edit course
+11-DeleteCourse :>delete course
+12-EditInsructorInCourse :>change the constructor of the course
+13-EditDepartment :>update departement data
+14-AddNewTrack :>add new track
+
+__________________________________________________________________________________
+__________________________________________________________________________________
+
+   ===========================>Triggers<=============================
+1-make soft delete when deleting from Branch,student table
+2-make soft delete when deleting from Class,instructor,track table
+3-make soft delete when deleting from Course,departement,Exam tables
+___________________________________________________________________________________
+___________________________________________________________________________________
+
+=============================>Schema<================================
+1-Questions :>schema contains tables related to question
+2-Exam      :>schema related to Exam
+3-Person    :>contain student and instructor tables
+4- StudentData :>contains objects related to student
+5-CourseData   :>contains objects related to courses
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
